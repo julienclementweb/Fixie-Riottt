@@ -1,0 +1,219 @@
+
+* {
+    margin: 0;
+}
+#bodyMain {
+    margin: 0 auto;
+    background-image: url("images/large3.jpg");
+    background-repeat: no-repeat;
+}
+
+a {
+    color: rgb(252,162,46);
+}
+a:hover {
+    color: rgb(255,54,102);
+    text-decoration: none;
+}
+
+#start {
+    text-align: center;
+    font-family: 'Nothing You Could Do', cursive, sans-serif;
+    font-size: 3em;
+    color: white;
+    text-shadow: 1px 3px 2px black;
+    padding-top: 50px;
+}
+.start {
+    text-align: center;
+    margin: 0 auto;
+    float: none;
+}
+#startButton {
+    font-size: 4em;
+    margin-top: 150px;
+}
+.button {
+    background-color: transparent;
+    color: rgb(252,162,46);
+    border: none;
+    text-shadow: 1px 3px 2px white;
+    font-size: 1.3em;
+}
+.button:hover {
+    color: rgb(255,54,102);
+}
+#mainTitle {
+    text-align: center;
+    padding-top: 180px;
+}
+#mainTitle h1 {
+    margin: 0 auto;
+    font-family: 'Nothing You Could Do', cursive, sans-serif;
+    font-size: 10em;
+    font-weight: bold;
+    color: rgb(255,54,102);
+    text-shadow: 1px 3px 2px white;
+    text-transform: uppercase;
+}
+#mainPres {
+    padding-top: 10px;
+}
+
+#mainPresBox p {
+    color: white;
+    text-shadow: 1px 0px 8px black;
+    font-family: 'Nothing You Could Do', cursive, sans-serif;
+    text-align: center;
+    font-size: 1.7em;
+}
+#more {
+    text-align: center;
+    font-family: 'Nothing You Could Do', cursive, sans-serif;
+    font-size: 3em;
+    color: rgb(252,162,46);
+    text-shadow: 1px 3px 2px black;
+    padding-top: 100px;
+}
+#16, #17, #18, #19, #20 {
+    font-size: 1.2em;
+}
+
+/* HALL OF FAME */
+
+#section1 {
+    background: url("images/large3.jpg") center 0 no-repeat fixed;
+    height: 1080px;
+}
+#section1 h1 {
+    margin: 0 auto;
+    padding-top: 250px;
+    font-family: 'Nothing You Could Do', cursive, sans-serif;
+    font-size: 8em;
+    font-weight: bold;
+    color: rgb(255,54,102);
+    text-shadow: 1px 3px 2px white;
+    text-transform: uppercase;
+    text-align: center;
+}
+#section1 #allFixies {
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Nothing You Could Do', cursive, sans-serif;
+    font-size: 2em;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 300px;
+    cursor: pointer;
+    text-shadow: 1px 1px 1px white;
+    color: rgb(255,54,102);
+}
+
+
+#section2 {
+    background: url("images/large6.jpg") center 0 no-repeat fixed;
+    height: 800px;
+}
+.box {
+    margin: 0 auto;
+    margin-top: 100px;
+    padding: 50px;
+    width: 50%;
+    height: 60vh;
+    text-shadow: 1px 1px 1px black;
+    float: none;
+    border: 3px solid whitesmoke;
+    background-color: rgba(250,250,250,0.6);
+    border-radius: 30px 5px 30px 5px;
+}
+.box h2 {
+    text-align: center;
+    font-family: 'Nothing You Could Do', cursive, sans-serif;
+    text-shadow: 1px 1px 1px whitesmoke;
+    font-weight: bold;
+}
+.box h2 em {
+    font-size: 1.5em;
+}
+#picture1 {
+    margin: 0 auto;
+    width: 80%;
+    height: 80%;
+}
+
+#section3 {
+    background: url("images/large3.jpg") center 0 no-repeat fixed;
+    height: 800px;
+}
+#section4 {
+    background: url("images/large7.jpg") center 0 no-repeat fixed;
+    height: 800px;
+}
+#section5 {
+    background: url("images/large3.jpg") center 0 no-repeat fixed;
+    height: 800px;
+}
+#section6 {
+    background: url("images/large5.jpg") center 0 no-repeat fixed;
+    height: 800px;
+}
+
+/* LUKE FIXIE */
+
+#bodyLuke {
+    margin: 0 auto;
+    background-image: url("images/darthVader.jpg");
+    background-repeat: no-repeat;
+}
+
+#description h1 {
+    margin: 0 auto;
+    padding-top: 400px;
+    font-family: 'Nothing You Could Do', cursive, sans-serif;
+    font-size: 5em;
+    font-weight: bold;
+    color: rgb(255,54,102);
+    text-align: center;
+    text-shadow: 1px 3px 2px white;
+    text-transform: uppercase;
+}
+
+.titleDescription {
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+
+#test {
+    padding-top: 500px;
+    height: 2000px;
+    width: 100%;
+}
+
+
+/* CAROUSEL */
+
+.carousel-indicators {
+    bottom: 0px;
+}
+.carousel-indicators li {
+    border-color: white;
+}
+.carousel-indicators li:active {
+    background-color: rgb(255,54,102);
+}
+#myCarousel .item{
+    padding: 40px 30px;
+}
+#myCarousel .item h3 {
+    color: rgb(255,54,102);
+    font-style: italic;
+    font-size: 1.2em;
+    text-shadow: 2px 2px 1px black;
+}
+#myCarousel .item h4 {
+    color: white;
+    font-style: italic;
+    text-shadow: 1px 1px 1px rgb(255,54,102);
+}
